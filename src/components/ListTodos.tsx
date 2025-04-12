@@ -23,6 +23,6 @@ export default function ListTodos({
       ))}
     </ul>
   ) : (
-    <Paragraph text="No tienes tareas pendientes." />
+    <Paragraph text="You dont have any task." />
   );
 }

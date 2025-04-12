@@ -17,7 +17,7 @@ export default function AddTodo({
     <Form
       onSubmit={() => {
         addTodo(getCleanPhrase(input));
-        toast.success('Tarea agregada correctamente.');
+        toast.success('Task added successfully!');
         setInput('');
       }}
     >
@@ -26,7 +26,7 @@ export default function AddTodo({
         type="text"
         value={input}
         onChange={(e) => setInput(e.target.value)}
-        placeholder="Agregar nueva tarea..."
+        placeholder="Add new task..."
       />
       <button type="submit" className="hidden"></button>
     </Form>

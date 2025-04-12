@@ -25,7 +25,7 @@ export default function ListItem({
           onChange={(e) => {
             onChange(todo.id, e.target.checked);
             if (!todo.checked) {
-              toast.success('Tarea completada!');
+              toast.success('Task completed!');
             }
           }}
         />
