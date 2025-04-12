@@ -9,19 +9,19 @@ import useTodos from './hooks/useTodos';
 const initialData: Todo[] = [
   {
     id: uuid(),
-    label: 'Sacar a pasear a Mara.',
+    label: 'Go cycling.',
     checked: false,
     created_at: new Date(Date.now()),
   },
   {
     id: uuid(),
-    label: 'Sacar la basura.',
+    label: 'Taking the trash out.',
     checked: false,
     created_at: new Date(Date.now()),
   },
   {
     id: uuid(),
-    label: 'Hacer ejercicio.',
+    label: 'Seeking for a job.',
     checked: false,
     created_at: new Date(Date.now()),
   },
